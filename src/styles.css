@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    font-family: "akzidenzgrotesk", sans-serif; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*  Customer Colour Variables    */
+
+:root{
+    --warm-grey: #AEA79F;
+    --green: #00C78B;
+    --blue: #0098C3;
+    --pink: #DA39AF;
+    --red: #C60C30;
+    --orange: #FF5800;
+    --yellow: #FECB00;
+    --dark: #231F20;
+}
+
+/* Custom Fonts */
+
+@font-face {
+    font-family: 'akzidenzgrotesk';
+    src: url('assets/font/akzidenz-grotesk-black-webfont.woff2') format('woff2'),
+         url('assets/font/akzidenz-grotesk-black-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akzidenzgrotesk';
+    src: url('assets/font/akzidenz-grotesk-bold-webfont.woff2') format('woff2'),
+         url('assets/font/akzidenz-grotesk-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akzidenzgrotesk';
+    src: url('assets/font/akzidenz-grotesk-light-webfont.woff2') format('woff2'),
+         url('assets/font/akzidenz-grotesk-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akzidenzgrotesk';
+    src: url('assets/font/akzidenz-grotesk-roman-webfont.woff2') format('woff2'),
+         url('assets/font/akzidenz-grotesk-roman-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
